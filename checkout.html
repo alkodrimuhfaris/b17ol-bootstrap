@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar sticky-top shadow-border">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img class="brand-small" src="./assets/images/icon.svg" alt="logo">
+            </a>
+            <div class="search-wrapper d-inline-flex">
+                <form class="form-inline position-relative">
+                    <input class="form-control rounded-pill search-bar" type="text" placeholder="Search">
+                    <button class="btn position-absolute" type="submit"><img src="./assets/images/search-glyph.svg" alt="Search"></button>
+                </form>
+                <button class="btn filter">
+                    <img class="mx-auto d-block" src="./assets/images/filter.svg" alt="">
+                </button>
+            </div>
+            <div class="nav">
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/shopping-cart.svg" alt="cart">
+                </button>
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/bell.svg" alt="cart">
+                </button>
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/mail.svg" alt="cart">
+                </button>
+                <div class="profile btn">
+                    <img src="./assets/images/ava.jpg" class="rounded-circle" alt="cart">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="title">Checkout</div>
+        <div class="items-wrapper d-flex justify-content-between">
+            <div class="left-cards">
+                <div class="shipping-title">Shipping Address</div>
+                <div class="item-wrapper adrs rounded">
+                    <div class="address-title">Adress Jane</div>
+                    <div class="address">
+                        <p>Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+                    </div>
+                    <div class="change-address-btn rounded-pill">
+                        <button class="btn change-address">Choose another address</button>
+                    </div>
+                </div>
+
+
+                <div class="item-wrapper rounded d-flex justify-content-between align-items-center">
+                    <div class="item d-flex justify-content-between align-items-center">
+                        <div class="item-picture position-relative overflow-hidden rounded">
+                            <img class="position-absolute" src="assets/images/jas.png" alt="">
+                        </div>
+                        <div class="item-information">
+                            <div class="item-name">Men's formal suit - Black</div>
+                            <div class="store-name">Zalora cloth</div>
+                        </div>
+                    </div>
+                    <div class="item-price">$ 20.0</div>
+                </div>
+                
+                <div class="item-wrapper rounded d-flex justify-content-between align-items-center">
+                   <div class="item d-flex justify-content-between align-items-center">
+                        <div class="item-picture position-relative overflow-hidden rounded">
+                            <img class="position-absolute" src="assets/images/jaket.png" alt="">
+                        </div>
+                        <div class="item-information">
+                            <div class="item-name">Men's jacket jeans</div>
+                            <div class="store-name">Zalora cloth</div>
+                        </div>
+                    </div>
+                    <div class="item-price">$ 20.0</div>
+                </div>
+            </div>
+            
+            <div class="shopping-summary rounded">
+                <div class="shopping-title">Shopping summary</div>
+                <div class="prices">
+                    <div class="Order d-flex justify-content-between">
+                        <div class="text">Order</div>
+                        <div class="price">$ 40.0</div>
+                    </div>
+                    <div class="Delivery d-flex justify-content-between">
+                        <div class="text">Delivery</div>
+                        <div class="price">$ 5.0</div>
+                    </div>
+                </div>
+                <div class="price-summary d-flex justify-content-between">
+                    <div class="shopping-title">Shopping summary</div>
+                    <div class="price red">$ 45.0</div>
+                </div>
+                <div class="buy-button rounded-pill">
+                    <button class="btn buy rounded-pill">Select payment</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

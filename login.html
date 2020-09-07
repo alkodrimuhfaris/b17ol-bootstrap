@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+        <script>
+            function onLogin(e){
+                e.preventDafault();
+                window.location = './home.html'
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container vh-100 d-flex justify-content-center align-items-center ">
+            <div>
+                <div class="header mx-auto">
+                    <img class="icon-img d-block mx-auto" src="./assets/images/icon.svg">
+                    <div class="message text-center font-weight-bold">Pelase log in with your account</div>
+                </div>
+
+                <div class="switches text-center">
+                    <div class="btn-group rounded btn-primary switch">
+                        <button class="btn btn-primary first">Customer</button><button class="btn btn-primary second">Seller</button>
+                    </div>
+                </div>
+                <div class="form-wrapper mx-auto">
+                    <form method="POST" onsubmit="onLogin(event)" class="auth form-group" action="">
+                        <div class="input-wrapper">
+                            <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                        </div>
+                        <div class="forgot-pass d-flex justify-content-end">
+                            <a href="#" class="d-block">Forgot password?</a>
+                        </div>
+                        <button onclick="window.location='./home.html'" class="btn btn-primary rounded-pill w-100" href="">PRIMARY</button>
+                    </form>
+                </div>
+                <div class="register-link mx-auto text-center">
+                    <span class="asking-text">Don't have Blanja account? </span><a href="signup.html">Register</a>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar sticky-top shadow-border">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img class="brand-small" src="./assets/images/icon.svg" alt="logo">
+            </a>
+            <div class="search-wrapper d-inline-flex">
+                <form class="form-inline position-relative">
+                    <input class="form-control rounded-pill search-bar" type="text" placeholder="Search">
+                    <button class="btn position-absolute" type="submit"><img src="./assets/images/search-glyph.svg" alt="Search"></button>
+                </form>
+                <button class="btn filter">
+                    <img class="mx-auto d-block" src="./assets/images/filter.svg" alt="">
+                </button>
+            </div>
+            <div class="nav">
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/shopping-cart.svg" alt="cart">
+                </button>
+
+                <div class="nav-buttons d-flex justify-content-between">
+                    <div class="nav-btn rounded-pill">
+                        <a href="#">
+                            <div class="btn rounded-pill login">Login</div>
+                        </a>
+                    </div>
+
+                    <div class="nav-btn rounded-pill">
+                        <a href="#">
+                            <div class="btn rounded-pill signup">Signup</div>
+                        </a>                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="upper-carousel">
+            <div class="slider position-relative">
+                <div class="cards-wrapper overflow-auto">
+                    <div class="img-carousel-wrapper d-flex">
+                        <div class="card position-relative mr-3 ml-3">
+                            <a class="card-container" href="#">
+                                <img class="img-card rounded" src="assets/images/carousel2.png" alt="">
+                                <div class="txt-card w-100 position-absolute text-center">Trends in 2020</div>
+                            </a>
+                        </div>
+                        <div class="card position-relative mr-3 ml-3">
+                            <a class="card-container" href="#">
+                                <img class="img-card rounded" src="assets/images/carousel3.png" alt="">
+                                <div class="txt-card w-100 position-absolute text-center">Black Edition</div>
+                            </a>
+                        </div>
+                        <div class="card position-relative mr-3 ml-3">
+                            <a class="card-container" href="#">
+                                <img class="img-card rounded" src="assets/images/carousel2.png" alt="">
+                                <div class="txt-card w-100 position-absolute text-center">Trends in 2020</div>
+                            </a>
+                        </div>
+                        <div class="card position-relative mr-3 ml-3">
+                            <a class="card-container" href="#">
+                                <img class="img-card rounded" src="assets/images/carousel3.png" alt="">
+                                <div class="txt-card w-100 position-absolute text-center">Black Edition</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="btn position-absolute rounded-circle prev">
+                    <img src="assets/images/arrow.svg" alt="prev">
+                </button>
+    
+                <button class="btn position-absolute rounded-circle next">
+                    <img src="assets/images/arrow.svg" alt="next">
+                </button>
+            </div>
+
+            <div class="dots d-flex justify-align-between">
+                <button class="dot rounded-circle"></button>
+                <button class="dot rounded-circle"></button>
+                <button class="dot rounded-circle"></button>
+                <button class="dot rounded-circle"></button>
+                <div class="dot-wrapper">
+                </div>
+                <div class="dot-wrapper">
+                </div>
+                <div class="dot-wrapper">
+                </div>
+                <div class="dot-wrapper">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="heading">
+            <h1>Category</h1>
+            <p>What are you currently looking for?</p>
+        </div>
+
+        <div class="mid-carousel position-relative">
+            <div class="slider overflow-auto">
+                <div class="content-container d-flex ">
+                    <a class="contents-card" href="#">
+                        <div class="content-card rounded mr-3 ml-3 position-relative red">
+                            <img class="img-card position-absolute " src="assets/images/T-shirt.png" alt="">
+                            <div class="txt-card position-absolute">T-shirt</div>
+                        </div>
+                    </a>
+                    <a class="contents-card" href="#">
+                        <div class="content-card rounded mr-3 ml-3 position-relative blue">
+                            <img class="img-card position-absolute" src="assets/images/shorts.png" alt="">
+                            <div class="txt-card position-absolute">Shorts</div>
+                        </div>
+                    </a>
+                    <a class="contents-card" href="#">
+                        <div class="content-card rounded mr-3 ml-3 position-relative orange">
+                            <img class="img-card position-absolute" src="assets/images/jacket.png" alt="">
+                            <div class="txt-card position-absolute">Jacket</div>
+                        </div>
+                    </a>
+                    <a class="contents-card" href="#">
+                        <div class="content-card rounded mr-3 ml-3 position-relative pink">
+                            <img class="img-card position-absolute" src="assets/images/pants.png" alt="">
+                            <div class="txt-card position-absolute">Pants</div>
+                        </div>
+                    </a>
+                    <a class="contents-card" href="#">
+                        <div class="content-card rounded mr-3 ml-3 position-relative green">
+                            <img class="img-card position-absolute" src="assets/images/shoes.png" alt="">
+                            <div class="txt-card position-absolute">Shoes</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="btn position-absolute rounded-circle next">
+                <img src="assets/images/arrow.svg" alt="next">
+            </button>
+        </div>
+
+        <div class="heading">
+            <h1>New</h1>
+            <p>You've never seen it before</p>
+        </div>
+        <div class="contents-container">
+            <div class="baris first d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baris d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baris d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading">
+            <h1>Popular</h1>
+            <p>Find the chlotes that are trending recently</p>
+        </div>
+        <div class="contents-container end">
+            <div class="baris first d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baris d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baris d-flex">
+                <div class="jas-card first rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jas-card rounded">
+                    <div class="jas-img mb-3">
+                        <img class="w-100 rounded-top" src="assets/images/jas.png" alt="jas">
+                    </div>
+                    <div class="txt-jas-wrap ml-2 mr-2 mt-2">
+                        <div class="txt-jas hitam">Men's formal suit - Black & White</div>
+                        <div class="txt-jas merah mt-1">$ 40.0</div>
+                        <div class="txt-zalora mt-2">Zalora cloth</div>
+                        <div class="stars mt-1">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <img class="star" src="assets/images/Star.svg" alt="Star">
+                            <span class="buyers">(10)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

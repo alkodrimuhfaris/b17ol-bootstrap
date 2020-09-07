@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body class="vh-100">
+
+    <nav class="navbar sticky-top shadow-border">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img class="brand-small" src="./assets/images/icon.svg" alt="logo">
+            </a>
+            <div class="search-wrapper d-inline-flex">
+                <form class="form-inline position-relative">
+                    <input class="form-control rounded-pill search-bar" type="text" placeholder="Search">
+                    <button class="btn position-absolute" type="submit"><img src="./assets/images/search-glyph.svg" alt="Search"></button>
+                </form>
+                <button class="btn filter">
+                    <img class="mx-auto d-block" src="./assets/images/filter.svg" alt="">
+                </button>
+            </div>
+            <div class="nav">
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/shopping-cart.svg" alt="cart">
+                </button>
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/bell.svg" alt="cart">
+                </button>
+                <button class="btn" href="#cart">
+                    <img class="mx-auto d-block" src="./assets/images/mail.svg" alt="cart">
+                </button>
+                <div class="profile btn">
+                    <img src="./assets/images/ava.jpg" class="rounded-circle" alt="cart">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="menu-side col-3">
+
+                <div class="profile-setting mb-10 d-flex align-items-start">
+                    <div class="profile-picture">
+                        <img src="assets/images/ava.png" class="rounded-circle" alt="">
+                    </div>
+                    <div class="profile-txt">
+                        <div class="name">Johanes Mikael</div>
+                        <div class="change-profile d-flex align-items-center">
+                            <div class="pen-symbol">
+                                <a href="#">
+                                    <img src="assets/images/Profile-changer.svg" alt="Pen">
+                                </a>
+                            </div>
+                            <div class="txt">
+                                <a href="#" class="font-weight-light">Ubah profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="menu-option d-flex align-items-center btn">
+                    <div class="icon rounded-circle blue d-flex align-items-center justify-content-center">
+                        <img src="assets/images/user.svg" alt="">
+                    </div>
+                    <div class="icon-name">My account</div>
+                </button>
+                <button class="menu-option d-flex align-items-center btn">
+                    <div class="icon rounded-circle orange d-flex align-items-center justify-content-center">
+                        <img src="assets/images/map-pin.svg" alt="">
+                    </div>
+                    <div class="icon-name">Shipping Address</div>
+                </button>
+                <button class="menu-option d-flex align-items-center btn">
+                    <div class="icon rounded-circle magenta d-flex align-items-center justify-content-center">
+                        <img src="assets/images/clipboard.svg" alt="">
+                    </div>
+                    <div class="icon-name">My Orders</div>
+                </button>
+            </div>
+
+            <div class="page-side col-9 overflow-auto">
+                <div class="page-wrapper rounded">
+                    <div class="profile-menu">
+                        <div class="title-menu">My Profile</div>
+                        <div class="title-desc">Manage your profile information</div>
+                    </div>
+                    <div class="form-change justify-content-between d-flex">
+                        <div class="left-form">
+                            <form>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="name" class="label text-right">Name</label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" name="name" class="form-control" value="Johanes Mikael">
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="staticEmail" class="label text-right">Email</label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" name="email" class="form-control" value="johanes@gmail.com">
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="staticNumber" class="label text-right">Phone Number</label>
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" name="phone-number" class="form-control" value="08901289012">
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="staticEmail" class="label text-right">Gender</label>
+                                    </div>
+                                    <div class="form-input">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Gender" id="inlineRadio1" value="Laki-laki">
+                                            <label class="form-check-label" for="inlineRadio1">Laki-laki</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Gender" id="inlineRadio2" value="Perempuan">
+                                            <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="staticEmail" class="label text-right">Date of Birth</label>
+                                    </div>
+                                    <div class="form-input d-flex justify-content-between">
+                                        <select class="form-control options">
+                                            <option value="01">1</option>
+                                            <option value="02">2</option>
+                                            <option value="03">3</option>
+                                        </select>
+                                        <select class="form-control options">
+                                            <option value="01">Januari</option>
+                                            <option value="02">Februari</option>
+                                            <option value="03">Maret</option>
+                                          </select>
+                                          <select class="form-control options">
+                                            <option value="1990">1990</option>
+                                            <option value="1991">1991</option>
+                                            <option value="1992">1992</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-start align-items-center">
+                                    <div class="label right">
+                                        <label for="staticEmail" class="label text-right"></label>
+                                    </div>
+                                    <div class="form-input">
+                                        <button type="submit" class="btn btn-primary rounded-pill save">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="change-photo">
+                            <div class="photo rounded-circle">
+                                <img src="assets/images/ava.png" class="d-block mx-auto rounded-circle" alt="">
+                            </div>
+                            <div class="btn change-ava custom-file">
+                                <button class="btn rounded-pill">Select image</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    
+
+
+</body>
+</html>
